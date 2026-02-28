@@ -32,6 +32,7 @@
 
 - [RP001: Ironpad — Rust กับ AI-Assisted Development](./rp001-ironpad-rust-ai-development.md)
 - [RP002: moss — Unix-like Kernel ที่เขียนด้วย Rust และ Aarch64 Assembly](./rp002-moss-unix-like-kernel.md)
+- [RP003: Redistill — ทลายขีดจำกัด Throughput ของ Redis สู่ระดับ 9 ล้าน Ops/sec](./rp003-redistill-redis-replacement.md)
 
 # Rust Research
 
