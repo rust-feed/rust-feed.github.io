@@ -4,3 +4,6 @@ book
 node_modules/
 package.json
 package-lock.json
+
+# Lint tool cache
+.markdownlint-cli2-results.txt

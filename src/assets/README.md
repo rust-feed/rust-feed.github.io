@@ -96,7 +96,7 @@ Keep all critical text inside the inner **1080 × 560 px** region (60 px inset o
 
 The image is referenced in `theme/head.hbs` via absolute URL:
 
-```
+```text
 https://pharmacist-sabot.github.io/rust-feed/assets/og-image.png
 ```
 

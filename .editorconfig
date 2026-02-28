@@ -1,0 +1,33 @@
+# EditorConfig — rust-feed
+# https://editorconfig.org/
+
+root = true
+
+# Default: all files
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Markdown files
+[*.md]
+# Do NOT trim trailing whitespace in markdown:
+# two trailing spaces = intentional line break (<br>)
+trim_trailing_whitespace = false
+max_line_length = 120
+
+# TOML configuration files
+[*.toml]
+indent_style = space
+indent_size = 2
+
+# YAML files (GitHub Actions, etc.)
+[*.yml]
+indent_style = space
+indent_size = 2
+
+# JSON files (cspell, etc.)
+[*.json]
+indent_style = space
+indent_size = 2

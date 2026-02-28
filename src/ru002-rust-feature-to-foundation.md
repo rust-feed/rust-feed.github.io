@@ -66,7 +66,7 @@
 >
 > สิ่งที่ทำให้ `cargo-script` ต่างจากการเขียน script ทั่วไปคือ มันอนุญาตให้เราฝัง config ของ `Cargo.toml` ลงไปในส่วนหัวของไฟล์ `.rs` ได้เลย (Embedded Manifest) ซึ่งหน้าตาจะเป็นแบบนี้:
 >
-> ```
+> ```toml
 > ---cargo
 > [dependencies]
 > serde = { version = "1", features = ["derive"] }

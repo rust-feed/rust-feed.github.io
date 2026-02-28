@@ -1,0 +1,77 @@
+# Markdownlint Configuration — rust-feed
+# Standard: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+default: true
+
+# MD013 — Line length
+# DISABLED for prose: Thai language has no word boundaries, making hard-wrapping
+# paragraphs impractical and harmful to readability. Only headings are enforced.
+MD013:
+  line_length: 999
+  heading_line_length: 999
+  code_block_line_length: 120
+  tables: false
+  paragraphs: false
+
+# MD028 — No blank lines inside blockquote
+# OFF: Project uses blank lines between consecutive blockquotes intentionally
+# for visual separation of distinct callout sections.
+MD028: false
+
+# MD033 — Inline HTML
+# Allow specific HTML elements used by mdBook
+MD033:
+  allowed_elements:
+    - details
+    - summary
+    - br
+    - sub
+    - sup
+    - kbd
+    - img
+    - a
+
+# MD041 — First line in file should be a top-level heading
+MD041:
+  level: 1
+  front_matter_title: ""
+
+# MD025 — Multiple top-level headings
+# OFF: SUMMARY.md requires multiple H1 sections (handled with inline disable)
+MD025: false
+
+# MD007 — Unordered list indentation
+MD007:
+  indent: 2
+
+# MD010 — Hard tabs
+# Always use spaces; but skip code blocks where tabs may be intentional
+MD010:
+  code_blocks: false
+
+# MD024 — Multiple headings with the same content
+# Allow same headings in different sections of a document
+MD024:
+  siblings_only: true
+
+# MD026 — Trailing punctuation in headings
+# Allow Thai sentences that end with colon or other natural punctuation
+MD026:
+  punctuation: ".,;!"
+
+# MD035 — Horizontal rule style
+MD035:
+  style: "---"
+
+# MD046 — Code block style
+MD046:
+  style: "fenced"
+
+# MD048 — Code fence style
+MD048:
+  style: "backtick"
+
+# MD060 — Table column style
+# OFF: mdBook tables often use padded pipes for alignment; enforcing compact
+# would require reformatting all existing tables with no visual benefit.
+MD060: false
