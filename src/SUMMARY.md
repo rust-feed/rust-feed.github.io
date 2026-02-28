@@ -19,6 +19,8 @@
 
 # Rust Core
 
+- [RC001: สถาปัตยกรรม Compilation Pipeline ของ Rust](./rc001-rust-compilation-pipeline.md)
+
 # Rust Crates
 
 # Rust Games
