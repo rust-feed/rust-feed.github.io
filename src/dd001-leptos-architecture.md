@@ -6,7 +6,7 @@
 
 ---
 
-## ปฏิวัติด้วย Fine-Grained Reactivity
+## 1. ปฏิวัติด้วย Fine-Grained Reactivity
 
 เรื่องราวของ Leptos นั้น เริ่มต้นที่การตั้งคำถามกับ Paradigm เดิมๆ แทนที่จะมองว่า UI คือฟังก์ชันที่ต้องรันซ้ำๆ เพื่อสร้าง Tree ใหม่ (แบบ Yew หรือ Dioxus) **Leptos** เลือกเดินเส้นทางของ **Fine-Grained Reactivity** ซึ่งเปลี่ยนกระบวนการคิดของเราไปโดยสิ้นเชิง
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Developer Experience (DX) ที่เหนือกว่า
+## 2. Developer Experience (DX) ที่เหนือกว่า
 
 อีกหนึ่งความเจ็บปวดของการเขียน UI ใน **Rust** คือการต่อสู้กับ Borrow Checker เมื่อต้องส่ง State เข้าไปใน Closures หลายๆ ชั้น
 
@@ -32,7 +32,7 @@
 
 ---
 
-## Full-stack Isomorphic Framework
+## 3. Full-stack Isomorphic Framework
 
 แต่ **Leptos** ไม่ได้หยุดแค่การเป็น Client-side Library ที่เร็วเท่านั้น มันถูกวางสถานะเป็น **Full-stack Isomorphic Framework** ตั้งแต่ต้นน้ำ ยิ่งเมื่อทำงานร่วมกับ `cargo-leptos` เราจะเห็นศักยภาพของการทำ **Server Functions** ที่ทำให้เส้นแบ่งระหว่าง Client และ Server จางลง
 
@@ -45,7 +45,7 @@
 
 ---
 
-## บทสรุป
+## 4. บทสรุป
 
 หากเปรียบเทียบในเชิงปรัชญา ชื่อ **"Leptos"** (ภาษากรีกแปลว่า บาง, เบา, ละเอียด) สะท้อนตัวตนของ Framework ได้ดีที่สุด
 

@@ -1,12 +1,14 @@
 # การสร้าง Media Converter ด้วย Rust
 
+## 1. บทนำ (Introduction)
+
 มี Case Study ที่น่าสนใจเกี่ยวกับการ Rewrite Desktop App จาก Electron มาเป็น Tauri (Rust Backend + Vue Frontend) ซึ่งเป็นตัวอย่างที่ชัดเจนมากว่าทำไม Rust ถึงเป็นภาษาที่ใช่สำหรับการทำ System Utility ที่ต้องการประสิทธิภาพสูง และมี Memory Safety
 
 โปรเจกต์นี้ชื่อว่า **"Honeymelon"** เป็น Media Converter สำหรับ macOS (Apple Silicon) โดยเฉพาะ ซึ่งผู้พัฒนา (Jerome Thayananthajothy) ได้แชร์บทเรียนสำคัญในการทิ้ง Node.js runtime อันเทอะทะ มาสู่ความเร็วระดับ Native ของ Rust
 
 ---
 
-## The Cost of Runtime: ทำไมต้องหนีจาก Electron
+## 2. The Cost of Runtime: ทำไมต้องหนีจาก Electron
 
 ปัญหาคลาสสิกของ Electron คือ Resource Overhead ครับ ผู้พัฒนาพบว่าเวอร์ชันแรกกินแรมมหาศาล (Unreasonable memory consumption) และ Binary มีขนาดใหญ่ (Bloated binary) การเปิด App ขึ้นมาเพื่อแปลงไฟล์ง่ายๆ แต่ต้องรัน Chromium ทั้งตัวเป็นเรื่องที่ Overkill เกินไป
 
@@ -19,7 +21,7 @@
 
 ---
 
-## สิ่งที่ Rust มอบให้: ทำไมถึงเลือก Rust
+## 3. สิ่งที่ Rust มอบให้: ทำไมถึงเลือก Rust
 
 การเลือก Rust ไม่ใช่แค่เรื่องความเร็ว แต่คือ **Reliability** ที่ภาษาอื่นให้ไม่ได้ในระดับเดียวกัน เมื่อเทียบกับทางเลือกอื่นอย่าง C++ หรือ Go แล้ว Rust ตอบโจทย์ได้ครบทุกด้านสำหรับงาน System Utility แบบนี้
 
@@ -33,7 +35,7 @@
 
 ---
 
-## Architecture Design: Probe, Plan, Execute
+## 4. Architecture Design: Probe, Plan, Execute
 
 สถาปัตยกรรมของ Honeymelon แบ่งเป็น 3 Stage ที่น่าสนใจ โดยมีการแบ่งหน้าที่ระหว่าง Frontend (TS) และ Backend (Rust) อย่างชัดเจน
 
@@ -50,7 +52,7 @@
 
 ---
 
-## Concurrency Model: Exclusive Mode
+## 5. Concurrency Model: Exclusive Mode
 
 จุดที่น่าสนใจที่สุดคือการจัดการ Concurrency ครับ ใน Electron การจัดการ Child Process จำนวนมากผ่าน Node.js Event Loop มักจะมี Overhead ในการ Marshalling ข้อมูลผ่าน Single Thread แต่ในฝั่ง Rust Backend ของ Honeymelon ใช้ประโยชน์จาก Rust's Async Runtime ร่วมกับ Tauri's IPC layer ได้อย่างเต็มประสิทธิภาพ
 
@@ -67,7 +69,7 @@
 
 ---
 
-## FFmpeg License: Process Separation
+## 6. FFmpeg License: Process Separation
 
 หากใครที่เคยทำงานกับ FFmpeg จะรู้ว่าเรื่อง License (LGPL/GPL) นั้นปวดหัว การ Link library (`libavcodec`) เข้ากับ Rust code ตรงๆ อาจทำให้ Binary ของเราติดเงื่อนไข LGPL
 
@@ -83,7 +85,7 @@
 
 ---
 
-## ผลลัพธ์และตัวเลข: Electron vs Tauri (Rust)
+## 7. ผลลัพธ์และตัวเลข: Electron vs Tauri (Rust)
 
 การย้ายจาก Electron มา Tauri (Rust Backend) ให้ผลลัพธ์ที่เห็นได้ชัดในทุกด้าน
 
@@ -98,7 +100,7 @@
 
 ---
 
-## บทเรียนและข้อควรระวัง
+## 8. บทเรียนและข้อควรระวัง
 
 ### สิ่งที่ทำแล้วได้ผลดี
 
@@ -115,7 +117,7 @@
 
 ---
 
-## บทสรุป
+## 9. บทสรุป
 
 Honeymelon พิสูจน์ให้เห็นว่าการใช้ Rust คู่กับ Tauri ไม่ใช่แค่ Trend แต่มันคือการ **ปลดล็อกข้อจำกัดทาง Performance** ที่ Web Stack ทั่วไปทำไม่ได้ โดยเฉพาะงานที่ต้องยุ่งกับ System Process หนักๆ อย่าง Media Conversion
 
