@@ -5,5 +5,6 @@ language = "th"
 description = "Rust Feed แหล่งรวบรวมบทความภาษา Rust ที่โพสต์ใน Facebook Rust Dev Community"
 
 [output.html]
+additional-css = ["theme/custom.css"]
 site-url = "https://pharmacist-sabot.github.io/rust-feed/"
 git-repository-url = "https://github.com/pharmacist-sabot/rust-feed"
