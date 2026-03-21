@@ -31,3 +31,10 @@ jobs:
       - uses: lycheeverse/lychee-action@v1
         with:
           args: --exclude-loopback --exclude "facebook.com" src/**/*.md
+
+  test-auto-index:
+    runs-on: ubuntu-latest
+    name: Test Auto Index
+    steps:
+      - uses: actions/checkout@v4
+      - run: cargo test --manifest-path scripts/auto_index/Cargo.toml

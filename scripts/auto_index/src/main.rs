@@ -198,3 +198,46 @@ fn main() {
         println!("Successfully generated index.md files and updated SUMMARY.md");
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use std::io::Write;
+    use tempfile::NamedTempFile;
+
+    #[test]
+    fn test_sort_articles_newest_first() {
+        let mut articles = vec![
+            Article {
+                title: "A".into(),
+                filename: "a.md".into(),
+                date: Some("2026-01-01".into()),
+            },
+            Article {
+                title: "B".into(),
+                filename: "b.md".into(),
+                date: Some("2026-03-21".into()),
+            },
+        ];
+        sort_articles_by_date(&mut articles);
+        assert_eq!(articles[0].filename, "b.md");
+    }
+
+    #[test]
+    fn test_extract_title() {
+        let mut file = NamedTempFile::new().unwrap();
+        writeln!(file, "# My Test Title\nSome content...").unwrap();
+
+        let title = extract_title(file.path());
+        assert_eq!(title, "My Test Title");
+    }
+
+    #[test]
+    fn test_extract_date() {
+        let mut file = NamedTempFile::new().unwrap();
+        writeln!(file, "> 📅 วันที่เผยแพร่: 2026-03-21\nSome content...").unwrap();
+
+        let date = extract_date(file.path());
+        assert_eq!(date.unwrap(), "2026-03-21");
+    }
+}
