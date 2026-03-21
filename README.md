@@ -4,14 +4,14 @@
 
 **Rust Feed** is an open-source collection of Rust articles and tutorials originally posted in the Facebook Rust Dev Community. This repository serves as a centralized, well-organized knowledge base built with [mdBook](https://rust-lang.github.io/mdBook/).
 
-## 📖 Access the Book
+## Access the Book
 
 You can read the compiled book online here:
 **[Rust Feed Documentation](https://pharmacist-sabot.github.io/rust-feed/)**
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 To run this project locally and build the documentation, you will need:
 
@@ -24,7 +24,7 @@ To run this project locally and build the documentation, you will need:
 
 ---
 
-## ✍️ How to Contribute / Add New Articles
+## How to Contribute / Add New Articles
 
 We have fully automated the indexing process native to the Rust ecosystem. To add a new article to the book:
 
@@ -49,7 +49,7 @@ We have fully automated the indexing process native to the Rust ecosystem. To ad
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 rust-feed/
@@ -69,6 +69,6 @@ rust-feed/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
