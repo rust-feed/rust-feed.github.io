@@ -5,62 +5,38 @@ use std::path::Path;
 // Let's assume the script is always run from the root of `rust-feed`.
 const ROOT_SRC_DIR: &str = "src";
 
-#[derive(Debug)]
-struct Category {
-    name: &'static str,
-    folder: &'static str,
-}
+fn discover_categories(src_path: &Path) -> Vec<(String, String)> {
+    let mut categories = Vec::new();
 
-const CATEGORIES: &[Category] = &[
-    Category {
-        name: "Case Study",
-        folder: "case-study",
-    },
-    Category {
-        name: "Deep Dive",
-        folder: "deep-dive",
-    },
-    Category {
-        name: "Rust Blockchain",
-        folder: "rust-blockchain",
-    },
-    Category {
-        name: "Rust Core",
-        folder: "rust-core",
-    },
-    Category {
-        name: "Rust Crates",
-        folder: "rust-crates",
-    },
-    Category {
-        name: "Rust Games",
-        folder: "rust-games",
-    },
-    Category {
-        name: "Rust Hacker",
-        folder: "rust-hacker",
-    },
-    Category {
-        name: "Rust Project",
-        folder: "rust-project",
-    },
-    Category {
-        name: "Rust Research",
-        folder: "rust-research",
-    },
-    Category {
-        name: "Rust Tools",
-        folder: "rust-tools",
-    },
-    Category {
-        name: "Rust Update",
-        folder: "rust-update",
-    },
-    Category {
-        name: "Rust Web",
-        folder: "rust-web",
-    },
-];
+    if let Ok(entries) = fs::read_dir(src_path) {
+        for entry in entries.flatten() {
+            if entry.path().is_dir() {
+                let folder_name = entry.file_name().to_string_lossy().into_owned();
+
+                if folder_name == "assets" || folder_name.starts_with('.') {
+                    continue;
+                }
+
+                let display_name = folder_name
+                    .split('-')
+                    .map(|word| {
+                        let mut c = word.chars();
+                        match c.next() {
+                            None => String::new(),
+                            Some(f) => f.to_uppercase().collect::<String>() + c.as_str(),
+                        }
+                    })
+                    .collect::<Vec<String>>()
+                    .join(" ");
+
+                categories.push((display_name, folder_name));
+            }
+        }
+    }
+
+    categories.sort_by(|a, b| a.1.cmp(&b.1));
+    categories
+}
 
 /// Extract the title from the first `# ` heading in a markdown file.
 fn extract_title(filepath: &Path) -> String {
@@ -125,7 +101,7 @@ fn generate_index_content(category_name: &str, articles: &[Article]) -> String {
     content
 }
 
-type CategoriesData<'a> = &'a [(&'a str, &'a str, Vec<Article>)];
+type CategoriesData<'a> = &'a [(String, String, Vec<Article>)];
 
 fn generate_summary_content(categories_data: CategoriesData) -> String {
     let mut content = String::from(
@@ -172,20 +148,10 @@ fn main() {
 
     let mut categories_data = Vec::new();
 
-    for category in CATEGORIES {
-        let folder_path = src_path.join(category.folder);
+    let discovered_categories = discover_categories(src_path);
 
-        // Create folder if it doesn't exist
-        if !folder_path.exists() {
-            if let Err(e) = fs::create_dir_all(&folder_path) {
-                eprintln!(
-                    "Failed to create directory {}: {}",
-                    folder_path.display(),
-                    e
-                );
-                continue;
-            }
-        }
+    for (cat_name, cat_folder) in discovered_categories {
+        let folder_path = src_path.join(&cat_folder);
 
         let mut articles = Vec::new();
 
@@ -214,13 +180,13 @@ fn main() {
         // Sort articles by date (newest first)
         sort_articles_by_date(&mut articles);
 
-        let index_content = generate_index_content(category.name, &articles);
+        let index_content = generate_index_content(&cat_name, &articles);
         let index_path = folder_path.join("index.md");
         if let Err(e) = fs::write(&index_path, index_content) {
             eprintln!("Failed to write {}: {}", index_path.display(), e);
         }
 
-        categories_data.push((category.name, category.folder, articles));
+        categories_data.push((cat_name, cat_folder, articles));
     }
 
     // Generate SUMMARY.md
@@ -229,6 +195,6 @@ fn main() {
     if let Err(e) = fs::write(&summary_path, summary_content) {
         eprintln!("Failed to write {}: {}", summary_path.display(), e);
     } else {
-        println!("Successfully generated index.md files and updated SUMMARY.md using Rust");
+        println!("Successfully generated index.md files and updated SUMMARY.md");
     }
 }
