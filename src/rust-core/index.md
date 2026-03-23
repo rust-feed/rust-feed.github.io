@@ -1,5 +1,6 @@
 # Rust Core
 
+- [เมื่อ Trait ไม่ใช่แค่เงื่อนไข แต่คือพารามิเตอร์ลับที่ Compiler แอบส่งให้คุณ](./rc005-dictionary-passing-style.md) — 2026-03-23
 - [เมื่อสถาปัตยกรรมของภาษาไม่อาจลอกเลียนแบบได้ ทำไม Error Handling ของ Rust ถึงเป็น Masterpiece](./rc003-error-handling-masterpiece.md) — 2026-03-11
 - [ทำความรู้จัก Smart Pointer](./rc004-smart-pointers-guide.md) — 2026-03-05
 - [สถาปัตยกรรม Compilation Pipeline ของ Rust](./rc001-rust-compilation-pipeline.md) — 2026-02-22
