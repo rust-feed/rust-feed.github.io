@@ -114,7 +114,6 @@ After deploying, verify your tags render correctly:
 |------|-----|
 | Facebook Sharing Debugger | <https://developers.facebook.com/tools/debug/> |
 | Twitter/X Card Validator | <https://cards-dev.twitter.com/validator> |
-| OpenGraph.xyz | <https://www.opengraph.xyz/> |
 | LinkedIn Post Inspector | <https://www.linkedin.com/post-inspector/> |
 
 Paste `https://pharmacist-sabot.github.io/rust-feed/` and confirm:
