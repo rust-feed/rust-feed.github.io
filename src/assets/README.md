@@ -97,7 +97,7 @@ Keep all critical text inside the inner **1080 × 560 px** region (60 px inset o
 The image is referenced in `theme/head.hbs` via absolute URL:
 
 ```text
-https://pharmacist-sabot.github.io/rust-feed/assets/og-image.png
+https://rust-feed.github.io/assets/og-image.png
 ```
 
 mdBook copies everything under `src/assets/` into the build output, so both the SVG source and the PNG production file placed here will be served at their respective paths.
@@ -116,7 +116,7 @@ After deploying, verify your tags render correctly:
 | Twitter/X Card Validator | <https://cards-dev.twitter.com/validator> |
 | LinkedIn Post Inspector | <https://www.linkedin.com/post-inspector/> |
 
-Paste `https://pharmacist-sabot.github.io/rust-feed/` and confirm:
+Paste `https://rust-feed.github.io/` and confirm:
 
 - [x] Image renders at 1200 × 630
 - [x] Title text is legible at thumbnail size (~600 px wide)

@@ -1,13 +1,13 @@
 # Rust Feed
 
-[![Lint](https://github.com/pharmacist-sabot/rust-feed/actions/workflows/lint.yml/badge.svg)](https://github.com/pharmacist-sabot/rust-feed/actions/workflows/lint.yml)
+[![Lint](https://github.com/rust-feed/rust-feed.github.io/actions/workflows/lint.yml/badge.svg)](https://github.com/rust-feed/rust-feed.github.io/actions/workflows/lint.yml)
 
 **Rust Feed** is an open-source collection of Rust articles and tutorials originally posted in the Facebook Rust Dev Community. This repository serves as a centralized, well-organized knowledge base built with [mdBook](https://rust-lang.github.io/mdBook/).
 
 ## Access the Book
 
 You can read the compiled book online here:
-**[Rust Feed Documentation](https://pharmacist-sabot.github.io/rust-feed/)**
+**[Rust Feed Documentation](https://rust-feed.github.io/)**
 
 ---
 
