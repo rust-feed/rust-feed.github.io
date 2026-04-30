@@ -72,3 +72,28 @@ rust-feed/
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Linting
+
+We use `markdownlint-cli2` in CI to lint Markdown files under `src/`.
+
+Run the linter locally (uses `npx` so you don't need a global install):
+
+```bash
+npx markdownlint-cli2 "src/**/*.md" --config .markdownlint.yml --fix
+```
+
+If you'd like to also run the link checker used in CI, install `lychee` and run:
+
+```bash
+cargo install lychee
+lychee check --exclude-loopback --exclude "facebook.com" "src/**/*.md"
+```
+
+Run the auto-index tests (same as CI):
+
+```bash
+cargo test --manifest-path scripts/auto_index/Cargo.toml
+```
