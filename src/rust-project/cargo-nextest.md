@@ -19,6 +19,7 @@ Nextest เกิดขึ้นมาไม่ใช่เพราะทีม
 เป้าหมายของการเขียนเทสต์ไม่ใช่เพื่อให้ผ่าน ci แต่เพื่อให้เรามั่นใจว่าโค้ดที่เราเขียนจะทำงานได้อย่างถูกต้องในโลกจริง และเครื่องมือที่ดีควรช่วยให้เราไปถึงจุดนั้นได้โดยไม่กลายเป็นอุปสรรคเสียเอง ว่าไหมครับ
 
 **Credit & Reference:**
+
 - [GitHub: nextest](https://github.com/nextest-rs/nextest)
 - [Website: nexte.st](https://nexte.st)
 - [Crate: cargo-nextest](https://crates.io/crates/cargo-nextest)
