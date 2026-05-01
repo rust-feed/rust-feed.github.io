@@ -34,3 +34,12 @@ Rust กลับเลือกเดินคนละเส้นทางอ
 
 1. [A Compiled Review](https://dev.to/fcharles/a-compiled-review-28kl)
 2. [Concurrency benchmark computing sum of squares in C, C++, Rust, and Go](https://gist.github.com/f18charles/c7659fc55323cb43b153486052a01a5a)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

@@ -1,3 +1,4 @@
+use std::env;
 use std::fs;
 use std::io::{self, BufRead};
 use std::path::Path;
@@ -136,6 +137,42 @@ fn sort_articles_by_date(articles: &mut [Article]) {
     });
 }
 
+/// Ensure a navigation block exists at the end of the given markdown file.
+/// Uses markers `<!-- NAVIGATION:START -->` and `<!-- NAVIGATION:END -->` so
+/// repeated runs are idempotent.
+fn ensure_nav_block(filepath: &Path) -> io::Result<()> {
+    const START: &str = "<!-- NAVIGATION:START -->";
+    const END: &str = "<!-- NAVIGATION:END -->";
+
+    let mut content = fs::read_to_string(filepath)?;
+
+    // Links are relative from `src/<category>/<article>.md`.
+    // Use `../index.html` for the root Introduction page (mdbook builds README.md -> index.html),
+    // and `./index.html` for the category index. Using explicit .html ensures generated pages
+    // point to the correct files in the built `book/` output.
+    let nav = format!(
+        "\n\n{start}\n<!-- markdownlint-disable MD033 -->\n<div class=\"article-nav\">\n  <a class=\"nav-left\" href=\"../index.html\">← Introduction</a>\n  <a class=\"nav-right\" href=\"./index.html\">Category index →</a>\n</div>\n<!-- markdownlint-enable MD033 -->\n{end}\n",
+        start = START,
+        end = END
+    );
+
+    if let Some(start_idx) = content.find(START) {
+        if let Some(end_idx) = content.find(END) {
+            let end_pos = end_idx + END.len();
+            content.replace_range(start_idx..end_pos, &nav);
+        } else {
+            // Malformed: remove from start marker to EOF and append clean nav
+            content.replace_range(start_idx..content.len(), &nav);
+        }
+    } else {
+        // Append the navigation block
+        content.push_str(&nav);
+    }
+
+    fs::write(filepath, content)?;
+    Ok(())
+}
+
 fn main() {
     let src_path = Path::new(ROOT_SRC_DIR);
     if !src_path.exists() {
@@ -149,6 +186,10 @@ fn main() {
     let mut categories_data = Vec::new();
 
     let discovered_categories = discover_categories(src_path);
+
+    // CLI flag: --inject-nav to write navigation blocks into article files
+    let args: Vec<String> = env::args().collect();
+    let inject_nav = args.iter().any(|a| a == "--inject-nav");
 
     for (cat_name, cat_folder) in discovered_categories {
         let folder_path = src_path.join(&cat_folder);
@@ -172,6 +213,9 @@ fn main() {
                             filename: file_name,
                             date,
                         });
+                        if inject_nav && let Err(e) = ensure_nav_block(&path) {
+                            eprintln!("Failed to inject nav into {}: {}", path.display(), e);
+                        }
                     }
                 }
             }

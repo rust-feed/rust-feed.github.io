@@ -28,3 +28,12 @@
 
 1. [I built a fast, driver-less TUI for browsing PostgreSQL, with ER diagrams](https://dev.to/riii111_8782a7e607d04c8e8/i-built-a-fast-driver-less-tui-for-browsing-postgresql-with-er-diagrams-50k9)
 2. [riii111/sabiql — GitHub](https://github.com/riii111/sabiql)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

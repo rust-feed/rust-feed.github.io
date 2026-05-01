@@ -33,3 +33,12 @@
 **Credit & Reference:**
 
 1. ["How to use storytelling to fit inline assembly into Rust"](https://www.ralfj.de/blog/2026/03/13/inline-asm.html)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

@@ -33,3 +33,12 @@
 **Credit & Reference:**
 
 1. [Inside Rust Blog - Program management update (January 2026)](https://blog.rust-lang.org/inside-rust/2026/02/11/program-management-update-2026-01/)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

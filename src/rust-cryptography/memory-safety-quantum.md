@@ -28,3 +28,12 @@
 
 1. [Cryptographic Right Answers: Post Quantum and Rust Edition](https://kerkour.com/post-quantum-cryptography-recommendations-rust)
 2. [A Cryptography Engineer’s Perspective on Quantum Computing Timelines](https://words.filippo.io/crqc-timeline/)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

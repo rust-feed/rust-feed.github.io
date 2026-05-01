@@ -24,3 +24,12 @@ Nextest เกิดขึ้นมาไม่ใช่เพราะทีม
 - [Website: nexte.st](https://nexte.st)
 - [Crate: cargo-nextest](https://crates.io/crates/cargo-nextest)
 - [API Docs: nextest-runner](https://docs.rs/nextest-runner)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

@@ -35,3 +35,12 @@
 1. [Leptos GitHub repo](https://github.com/leptos-rs/leptos)
 2. [Leptos Book](https://github.com/leptos-rs/book)
 3. [cargo-leptos GitHub](https://github.com/leptos-rs/cargo-leptos)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

@@ -49,3 +49,12 @@
 **Credit & Reference:**
 
 1. Rust Types team: "Elaborating Rust Traits to Dictionary-Passing Style" — <https://nadrieril.github.io/blog/2026/03/20/dictionary-passing-style.html>
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

@@ -25,3 +25,12 @@
 **Credit & Reference:**
 
 1. [moss GitHub repo](https://github.com/hexagonal-sun/moss-kernel)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

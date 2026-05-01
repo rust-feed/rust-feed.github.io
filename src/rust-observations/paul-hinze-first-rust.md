@@ -32,3 +32,12 @@
 
 1. [A Gopher Meets a Crab](https://miren.dev/blog/gopher-meets-crab)
 2. [chat.miren.toys](https://chat.miren.toys/)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

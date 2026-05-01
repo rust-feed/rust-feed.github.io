@@ -30,3 +30,12 @@
 
 1. [skim GitHub repo](https://github.com/dean0x/skim)
 2. [How I strip 90% of code before feeding it to my coding agent](https://dev.to/dean0x/how-i-strip-90-of-code-before-feeding-it-to-my-coding-agent-1n3b)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

@@ -72,3 +72,12 @@ Ironpad มี feature set ที่ครบถ้วนสำหรับ proj
 
 1. [I Built a Full Project Management App in 2 days Using Claude 4.6](https://dev.to/olaproeis/i-built-a-full-project-management-app-in-2-days-using-claude-47-1e1g)
 2. [ironPad GitHub repo](https://github.com/OlaProeis/ironPad)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

@@ -27,3 +27,12 @@
 **Credit & Reference:**
 
 1. [A Guide to Rust Smart Pointers](https://www.youtube.com/watch?v=WdK7PED1ug8&t=731s)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

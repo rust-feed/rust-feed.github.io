@@ -43,3 +43,12 @@
 **Credit & Reference:**
 
 1. [The State of Allocators in 2026](https://cetra3.github.io/blog/state-of-allocators-2026/)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

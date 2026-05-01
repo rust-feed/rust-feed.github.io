@@ -75,3 +75,12 @@
 3. [X post](https://x.com/hummusonrails/status/2019337368033992833)
 4. [Build a dApp on Arbitrum with Claude (Video)](https://www.youtube.com/watch?v=vsejiaOTmJA&t=2s)
 5. [arbitrum-dapp-skill GitHub repo](https://github.com/hummusonrails/arbitrum-dapp-skill)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

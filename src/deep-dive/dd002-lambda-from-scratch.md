@@ -57,3 +57,12 @@ strip bootstrap
 **Credit & Reference:**
 
 1. [Lambda From Scratch](https://forgestream.idverse.com/blog/20260119-lambda-from-scratch/)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

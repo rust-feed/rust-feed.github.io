@@ -55,3 +55,12 @@ Honeymelon พิสูจน์ให้เห็นว่า "The tools you ch
 1. ["Introducing Honeymelon: A Case Study in Building a Better Media Converter" by Jerome Thayananthajothy](https://dev.to/thavarshan/introducing-honeymelon-a-case-study-in-building-a-better-media-converter-51d9)
 2. [Honeymelon GitHub repo](https://github.com/honeymelon-app/honeymelon)
 3. [Honeymelon Website](https://honeymelon.app/)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

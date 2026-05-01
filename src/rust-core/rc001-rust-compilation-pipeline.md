@@ -46,3 +46,12 @@
 
 1. [Understanding Rust Complier](https://dev.to/saurabh2836/understanding-rust-complier-3fgg)
 2. [Overview of the compiler](https://rustc-dev-guide.rust-lang.org/overview.html)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->

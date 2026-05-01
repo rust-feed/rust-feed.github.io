@@ -23,3 +23,12 @@ Open Source ชื่อ git-ai ไอเดียคือน่าสนใจ
 1. [git-ai GitHub repo](https://github.com/git-ai-project/git-ai)
 2. [git-ai Website](https://usegitai.com/)
 3. [git-ai Docs](https://usegitai.com/docs/cli/add-your-agent)
+
+<!-- NAVIGATION:START -->
+<!-- markdownlint-disable MD033 -->
+<div class="article-nav">
+  <a class="nav-left" href="../index.html">← Introduction</a>
+  <a class="nav-right" href="./index.html">Category index →</a>
+</div>
+<!-- markdownlint-enable MD033 -->
+<!-- NAVIGATION:END -->
