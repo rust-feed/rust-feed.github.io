@@ -9,6 +9,7 @@
 - [**Rust Blockchain**](./rust-blockchain/index.md): Rust กับเทคโนโลยี Blockchain
 - [**Rust Core**](./rust-core/index.md): แนวคิดหลักของภาษา Rust
 - [**Rust Crates**](./rust-crates/index.md): ไลบรารีและ crates ที่น่าสนใจ
+- [**Rust Cryptography**](./rust-cryptography/index.md): การเข้ารหัสและความปลอดภัยเชิงระบบ
 - [**Rust Games**](./rust-games/index.md): การพัฒนาเกมด้วย Rust
 - [**Rust Hacker**](./rust-hacker/index.md): เทคนิคขั้นสูงและ low-level programming
 - [**Rust Observations**](./rust-observations/index.md): มุมมองและข้อสังเกตเกี่ยวกับ Rust

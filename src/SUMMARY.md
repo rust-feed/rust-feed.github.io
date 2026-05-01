@@ -40,6 +40,11 @@
   - [[Rust Crates] List Crates ที่น่าจับตามองที่สุดในปี 2025 ที่ผ่านมา](./rust-crates/rcr001-top-crates-2025.md)
   - [อัปเดตนโยบายแจ้งเตือน Malicious Crate บน crates.io](./rust-crates/rcr002-malicious-crate-policy.md)
 
+# Rust Cryptography
+
+- [Rust Cryptography](./rust-cryptography/index.md)
+  - [เมื่อ Memory Safety คือด่านแรกที่คณิตศาสตร์ควอนตัมเจาะไม่ได้](./rust-cryptography/memory-safety-quantum.md)
+
 # Rust Games
 
 - [Rust Games](./rust-games/index.md)
