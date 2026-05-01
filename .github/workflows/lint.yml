@@ -28,9 +28,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Setup Rust toolchain
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Install mdbook
+        run: cargo install mdbook
+
+      - name: Generate site (auto_index + mdbook)
+        run: ./update.sh
+
       - uses: lycheeverse/lychee-action@v2
         with:
-          args: --exclude-loopback --exclude "facebook.com" src/**/*.md
+          # Run lychee against the generated HTML in `book/` so links resolve correctly
+          args: --exclude-loopback --exclude "facebook.com" "book/**/*.html"
 
   test-auto-index:
     runs-on: ubuntu-latest
