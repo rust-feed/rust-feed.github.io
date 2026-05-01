@@ -48,6 +48,11 @@
 
 - [Rust Hacker](./rust-hacker/index.md)
 
+# Rust Observations
+
+- [Rust Observations](./rust-observations/index.md)
+  - [มุมมองจากคนเขียน Go สิบปี ที่ลองจับรัสต์ครั้งแรกอย่างจริงจัง](./rust-observations/paul-hinze-first-rust.md)
+
 # Rust Project
 
 - [Rust Project](./rust-project/index.md)

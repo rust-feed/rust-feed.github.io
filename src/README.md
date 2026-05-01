@@ -11,6 +11,7 @@
 - [**Rust Crates**](./rust-crates/index.md): ไลบรารีและ crates ที่น่าสนใจ
 - [**Rust Games**](./rust-games/index.md): การพัฒนาเกมด้วย Rust
 - [**Rust Hacker**](./rust-hacker/index.md): เทคนิคขั้นสูงและ low-level programming
+- [**Rust Observations**](./rust-observations/index.md): มุมมองและข้อสังเกตเกี่ยวกับ Rust
 - [**Rust Project**](./rust-project/index.md): ไอเดียและโปรเจกต์ตัวอย่าง
 - [**Rust Research**](./rust-research/index.md): งานวิจัยและบทความเชิงวิชาการ
 - [**Rust Tools**](./rust-tools/index.md): เครื่องมือที่ช่วยในการพัฒนา
