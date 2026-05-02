@@ -80,6 +80,7 @@
 # Rust Research
 
 - [Rust Research](./rust-research/index.md)
+  - [Rust Interop การเดินทางสู่แก่นแท้ของ Safety บนตะเข็บรอยต่อ C/C++](./rust-research/rust-interop-safety.md)
 
 # Rust Tools
 
