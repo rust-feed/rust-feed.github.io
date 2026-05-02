@@ -28,6 +28,7 @@
   - [การปะทะกันของปรัชญาความปลอดภัยระหว่าง Diesel และ SQLx](./deep-dive/diesel-vs-sqlx-security-philosophy.md)
   - [Turso สถาปัตยกรรม SQLite ยุคใหม่ที่ถูก Rewrite ด้วย Rust](./deep-dive/turso-sqlite-rewrite.md)
   - [ทำไมเวลาใช้ AI เขียนโค้ด จึงควรเขียนด้วย Rust (และ Rust เท่านั้น 😉)](./deep-dive/ai-should-write-rust.md)
+  - [MongoBleed (CVE-2025-14847)](./deep-dive/mongobleed-cve-2025-14847.md)
 
 # Rust Blockchain
 

@@ -9,3 +9,4 @@
 - [การปะทะกันของปรัชญาความปลอดภัยระหว่าง Diesel และ SQLx](./diesel-vs-sqlx-security-philosophy.md) — 2026-01-30
 - [Turso สถาปัตยกรรม SQLite ยุคใหม่ที่ถูก Rewrite ด้วย Rust](./turso-sqlite-rewrite.md) — 2026-01-29
 - [ทำไมเวลาใช้ AI เขียนโค้ด จึงควรเขียนด้วย Rust (และ Rust เท่านั้น 😉)](./ai-should-write-rust.md) — 2026-01-28
+- [MongoBleed (CVE-2025-14847)](./mongobleed-cve-2025-14847.md) — 2026-01-27
