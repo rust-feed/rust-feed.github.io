@@ -14,6 +14,7 @@
   - [การสร้าง Media Converter ด้วย Rust](./case-study/honeymelon-media-converter.md)
   - [ทำไม Claude Code ถึงเลือก ripgrep แทน Vector Search](./case-study/claude-ripgrep-vs-vector-search.md)
   - [เบื้องหลัง Yarn 6 กับการ Rewrite Core ด้วย Rust](./case-study/yarn6-rust-rewrite.md)
+  - [ทำไม crates.io ถึงเลือก Svelte ?](./case-study/crates-io-why-svelte.md)
 
 # Deep Dive
 
