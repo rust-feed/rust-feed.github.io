@@ -45,6 +45,7 @@
 
 - [Rust Cryptography](./rust-cryptography/index.md)
   - [เมื่อ Memory Safety คือด่านแรกที่คณิตศาสตร์ควอนตัมเจาะไม่ได้](./rust-cryptography/memory-safety-quantum.md)
+  - [สมรภูมิ PQC บน Edge Devices](./rust-cryptography/pqc-edge-ghostwire.md)
 
 # Rust Games
 
