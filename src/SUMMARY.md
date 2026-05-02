@@ -66,7 +66,7 @@
 
 - [Rust Project](./rust-project/index.md)
   - [ถ้า cargo test มันช้า มาลอง cargo-nextest ไหมล่ะ](./rust-project/cargo-nextest.md)
-  - ["sabiql" TUI ที่ไม่ง้อ Database Driver](./rust-project/rp004-sabiql-driverless-tui.md)
+  - ["sabiql" TUI ที่ไม่ง้อ Database Driver](./rust-project/sabiql-driverless-tui.md)
   - ["moss" Unix-like Kernel ที่เขียนด้วย Rust](./rust-project/rp002-moss-unix-like-kernel.md)
   - ["Ironpad" เมื่อ Rust กับ AI-Assisted Development พิสูจน์ว่าพวกมันถูกสร้างมาเพื่อกันและกัน](./rust-project/rp001-ironpad-rust-ai-development.md)
   - ["Redistill" บทพิสูจน์ศักยภาพของ Rust ในการทลายขีดจำกัด Throughput ของ Redis สู่ระดับ 9 ล้าน Ops/sec](./rust-project/rp003-redistill-redis-replacement.md)
