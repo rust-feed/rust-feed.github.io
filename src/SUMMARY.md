@@ -79,7 +79,7 @@
 # Rust Tools
 
 - [Rust Tools](./rust-tools/index.md)
-  - [git-ai เครื่องมือที่เอาไว้ Track AI Code](./rust-tools/rt001-git-ai-tracking.md)
+  - [git-ai เครื่องมือที่เอาไว้ Track AI Code](./rust-tools/git-ai-tracking.md)
 
 # Rust Update
 
