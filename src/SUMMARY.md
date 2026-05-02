@@ -13,6 +13,7 @@
   - [เมื่อความน่าจะเป็นของ AI ปะทะกับความเข้มงวดของ Rust บทเรียนจากการ Modernize ระบบ COBOL ด้วย Rust](./case-study/modernize-cobol-with-rust.md)
   - [การสร้าง Media Converter ด้วย Rust](./case-study/honeymelon-media-converter.md)
   - [ทำไม Claude Code ถึงเลือก ripgrep แทน Vector Search](./case-study/claude-ripgrep-vs-vector-search.md)
+  - [เบื้องหลัง Yarn 6 กับการ Rewrite Core ด้วย Rust](./case-study/yarn6-rust-rewrite.md)
 
 # Deep Dive
 

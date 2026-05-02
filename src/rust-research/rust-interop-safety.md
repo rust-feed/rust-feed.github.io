@@ -34,7 +34,7 @@
 
 **Credit & Reference:**
 
-1. [Fortifying the Seams Between C/C++ and Rust : Characterizing Bugs in Interop Tools](https://oro.open.ac.uk/108138/)
+1. Cai, Xuemeng; Liu, Jiakun; Liu, Cunyang; Bao, Lingfeng; Yu, Yijun and Jiang, Lingxiao (2025). Fortifying the Seams Between C/C++ and Rust : Characterizing Bugs in Interop Tools
 
 <!-- NAVIGATION:START -->
 <!-- markdownlint-disable MD033 -->

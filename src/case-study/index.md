@@ -6,3 +6,4 @@
 - [เมื่อความน่าจะเป็นของ AI ปะทะกับความเข้มงวดของ Rust บทเรียนจากการ Modernize ระบบ COBOL ด้วย Rust](./modernize-cobol-with-rust.md) — 2026-02-25
 - [การสร้าง Media Converter ด้วย Rust](./honeymelon-media-converter.md) — 2026-02-06
 - [ทำไม Claude Code ถึงเลือก ripgrep แทน Vector Search](./claude-ripgrep-vs-vector-search.md) — 2026-02-01
+- [เบื้องหลัง Yarn 6 กับการ Rewrite Core ด้วย Rust](./yarn6-rust-rewrite.md) — 2026-01-29
