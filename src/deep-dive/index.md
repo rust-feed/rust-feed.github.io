@@ -7,3 +7,4 @@
 - [Lambda From Scratch: เขียน Custom Runtime เองด้วย Rust แบบไม่ง้อ SDK](./dd002-lambda-from-scratch.md) — 2026-02-28
 - [เจาะลึกสถาปัตยกรรม "Leptos" กับแนวคิด Fine-Grained Reactivity](./leptos-fine-grained-reactivity.md) — 2026-02-10
 - [การปะทะกันของปรัชญาความปลอดภัยระหว่าง Diesel และ SQLx](./diesel-vs-sqlx-security-philosophy.md) — 2026-01-30
+- [Turso สถาปัตยกรรม SQLite ยุคใหม่ที่ถูก Rewrite ด้วย Rust](./turso-sqlite-rewrite.md) — 2026-01-29

@@ -25,6 +25,7 @@
   - [Lambda From Scratch: เขียน Custom Runtime เองด้วย Rust แบบไม่ง้อ SDK](./deep-dive/dd002-lambda-from-scratch.md)
   - [เจาะลึกสถาปัตยกรรม "Leptos" กับแนวคิด Fine-Grained Reactivity](./deep-dive/leptos-fine-grained-reactivity.md)
   - [การปะทะกันของปรัชญาความปลอดภัยระหว่าง Diesel และ SQLx](./deep-dive/diesel-vs-sqlx-security-philosophy.md)
+  - [Turso สถาปัตยกรรม SQLite ยุคใหม่ที่ถูก Rewrite ด้วย Rust](./deep-dive/turso-sqlite-rewrite.md)
 
 # Rust Blockchain
 
