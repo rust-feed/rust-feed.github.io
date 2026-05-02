@@ -26,7 +26,7 @@
 # Rust Blockchain
 
 - [Rust Blockchain](./rust-blockchain/index.md)
-  - [เมื่อ Rust บุกโลก EVM: เจาะลึก Architecture ของ Arbitrum Stylus ผ่าน Claude Code Skill](./rust-blockchain/rb001-arbitrum-stylus-rust-evm.md)
+  - [เมื่อ Rust บุกโลก EVM: เจาะลึก Architecture ของ Arbitrum Stylus ผ่าน Claude Code Skill](./rust-blockchain/arbitrum-stylus-rust-evm.md)
 
 # Rust Core
 

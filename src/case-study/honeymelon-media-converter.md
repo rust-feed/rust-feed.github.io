@@ -21,9 +21,9 @@ Rust Async Runtime vs Node.js Event Loop
 สามารถ handle Concurrent FFmpeg processes ได้โดยไม่มี Overhead เหมือน Node.js และ Resource Management มีการ Implement Logic ที่เรียกว่า "Exclusive mode" สำหรับ Codec ที่กินทรัพยากรสูง (เช่น AV1 หรือ ProRes) ระบบจะ Lock ไม่ให้จ็อบหนักๆ รันซ้อนกันเพื่อป้องกัน Resource Contention ในขณะที่จ็อบเบาๆ สามารถรันขนานกันได้
 
 สิ่งที่ Rust มอบให้ การเลือก #Rust ไม่ใช่แค่เรื่องความเร็ว แต่คือ Reliability เพราะ
-- No Null Pointer Panics บอกลา `undefined is not a function` หรือ Crash กลางอากาศขณะแปลงไฟล์
-- Typed Result Values การใช้ `Result<T, E>` ทำให้ Error Propagation ถูกจัดการอย่างถูกต้องและครอบคลุมทุกเคส
-- No GC Pauses เรื่องนี้สำคัญมากสำหรับงาน Real-time progress tracking เพราะ #Rust ไม่มี Garbage Collector มาคอย interrupt การทำงาน ทำให้ Progress events ที่ส่งกลับไปหน้าบ้านมีความลื่นไหลและแม่นยำ
+* No Null Pointer Panics บอกลา `undefined is not a function` หรือ Crash กลางอากาศขณะแปลงไฟล์
+* Typed Result Values การใช้ `Result<T, E>` ทำให้ Error Propagation ถูกจัดการอย่างถูกต้องและครอบคลุมทุกเคส
+* No GC Pauses เรื่องนี้สำคัญมากสำหรับงาน Real-time progress tracking เพราะ #Rust ไม่มี Garbage Collector มาคอย interrupt การทำงาน ทำให้ Progress events ที่ส่งกลับไปหน้าบ้านมีความลื่นไหลและแม่นยำ
 
 Architecture Design Probe, Plan, Execute
 สถาปัตยกรรมของ Honeymelon แบ่งเป็น 3 Stage ที่น่าสนใจ โดยมีการแบ่งหน้าที่ระหว่าง Frontend (TS) และ Backend (Rust) อย่างชัดเจน
