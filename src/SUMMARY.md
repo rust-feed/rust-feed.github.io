@@ -87,7 +87,7 @@
 - [Rust Update](./rust-update/index.md)
   - [Rust 1.95.0 มาแล้ว](./rust-update/rust-1-95.md)
   - [จาก Feature สู่ Foundation](./rust-update/rust-feature-to-foundation.md)
-  - [Rust Project Goals 2026 วิวัฒนาการครั้งสำคัญของกระบวนการพัฒนาที่ Rustacean ควรรู้](./rust-update/ru001-rust-project-goals-2026.md)
+  - [Rust Project Goals 2026 วิวัฒนาการครั้งสำคัญของกระบวนการพัฒนาที่ Rustacean ควรรู้](./rust-update/rust-project-goals-2026.md)
 
 # Rust Web
 
