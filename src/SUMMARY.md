@@ -58,6 +58,7 @@
 # Rust Hacker
 
 - [Rust Hacker](./rust-hacker/index.md)
+  - [RootNRoute ยกระดับ Rust สู่โลกของ Offensive & Defensive Security](./rust-hacker/rootnroute-rust-offensive-defensive.md)
 
 # Rust Observations
 
