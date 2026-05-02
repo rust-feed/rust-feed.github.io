@@ -31,7 +31,7 @@
 # Rust Core
 
 - [Rust Core](./rust-core/index.md)
-  - [เมื่อ Trait ไม่ใช่แค่เงื่อนไข แต่คือพารามิเตอร์ลับที่ Compiler แอบส่งให้คุณ](./rust-core/rc005-dictionary-passing-style.md)
+  - [เมื่อ Trait ไม่ใช่แค่เงื่อนไข แต่คือพารามิเตอร์ลับที่ Compiler แอบส่งให้คุณ](./rust-core/dictionary-passing-style.md)
   - [เมื่อสถาปัตยกรรมของภาษาไม่อาจลอกเลียนแบบได้ ทำไม Error Handling ของ Rust ถึงเป็น Masterpiece](./rust-core/rc003-error-handling-masterpiece.md)
   - [ทำความรู้จัก Smart Pointer](./rust-core/rc004-smart-pointers-guide.md)
   - [สถาปัตยกรรม Compilation Pipeline ของ Rust](./rust-core/rc001-rust-compilation-pipeline.md)
