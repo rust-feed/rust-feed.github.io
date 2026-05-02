@@ -21,7 +21,7 @@
   - [ภาพลวงตาของ Inline Assembly และศิลปะการ "แต่งเรื่อง" หลอกคอมไพเลอร์ใน Rust](./deep-dive/inline-assembly-storytelling.md)
   - [10 ปีแห่งการรอคอย เจาะลึกสถาปัตยกรรม Allocator ของ Rust และก้าวต่อไปในปี 2026](./deep-dive/allocators-architecture-2026.md)
   - [Lambda From Scratch: เขียน Custom Runtime เองด้วย Rust แบบไม่ง้อ SDK](./deep-dive/dd002-lambda-from-scratch.md)
-  - [เจาะลึกสถาปัตยกรรม "Leptos" กับแนวคิด Fine-Grained Reactivity](./deep-dive/dd001-leptos-fine-grained-reactivity.md)
+  - [เจาะลึกสถาปัตยกรรม "Leptos" กับแนวคิด Fine-Grained Reactivity](./deep-dive/leptos-fine-grained-reactivity.md)
 
 # Rust Blockchain
 
