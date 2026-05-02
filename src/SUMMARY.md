@@ -41,7 +41,7 @@
 
 - [Rust Crates](./rust-crates/index.md)
   - [[Rust Crates] List Crates ที่น่าจับตามองที่สุดในปี 2025 ที่ผ่านมา](./rust-crates/rcr001-top-crates-2025.md)
-  - [อัปเดตนโยบายแจ้งเตือน Malicious Crate บน crates.io](./rust-crates/rcr002-malicious-crate-policy.md)
+  - [อัปเดตนโยบายแจ้งเตือน Malicious Crate บน crates.io](./rust-crates/malicious-crate-policy.md)
 
 # Rust Cryptography
 
