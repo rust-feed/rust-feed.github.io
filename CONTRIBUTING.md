@@ -4,21 +4,11 @@ First off, thank you for considering contributing to `rust-feed` To keep the rep
 
 ## 1. Naming Convention
 
-All article files must be named according to their respective category (the folder they belong to). The filename format should consist of a **2-letter abbreviation**, followed by a **3-digit zero-padded number**, and then the **kebab-case title** of the article (`.md`).
+All article files must be named according to their respective category (the folder they belong to). The filename format should consist of a **3-digit zero-padded number**, followed by the **kebab-case title** of the article (`.md`).
 
-For example: `cs001-modernize-cobol-with-rust.md`, `rp004-sabiql-driverless-tui.md`
+For example: `modernize-cobol-with-rust.md`, `sabiql-driverless-tui.md`
 
-**Standard Category Abbreviations:**
-
-- `case-study` -> `csXXX-...`
-- `deep-dive` -> `ddXXX-...`
-- `rust-blockchain` -> `rbXXX-...`
-- `rust-project` -> `rpXXX-...`
-- `rust-update` -> `ruXXX-...`
-- `rust-tools` -> `rtXXX-...`
-- `rust-web` -> `rwXXX-...`
-
-*(Please make sure the abbreviation matches its target directory).*
+Note: Do not include category prefixes (such as `cs`, `dd`, `rp`, etc.) in filenames — place the file in the appropriate `src/<category>/` folder and the indexer will map it automatically.
 
 ## 2. Article Frontmatter & Formatting
 
