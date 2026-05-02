@@ -23,6 +23,7 @@
   - [10 ปีแห่งการรอคอย เจาะลึกสถาปัตยกรรม Allocator ของ Rust และก้าวต่อไปในปี 2026](./deep-dive/allocators-architecture-2026.md)
   - [Lambda From Scratch: เขียน Custom Runtime เองด้วย Rust แบบไม่ง้อ SDK](./deep-dive/dd002-lambda-from-scratch.md)
   - [เจาะลึกสถาปัตยกรรม "Leptos" กับแนวคิด Fine-Grained Reactivity](./deep-dive/leptos-fine-grained-reactivity.md)
+  - [การปะทะกันของปรัชญาความปลอดภัยระหว่าง Diesel และ SQLx](./deep-dive/diesel-vs-sqlx-security-philosophy.md)
 
 # Rust Blockchain
 
