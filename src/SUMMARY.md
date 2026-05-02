@@ -71,7 +71,7 @@
   - ["moss" Unix-like Kernel ที่เขียนด้วย Rust](./rust-project/moss-unix-like-kernel.md)
   - ["Ironpad" เมื่อ Rust กับ AI-Assisted Development พิสูจน์ว่าพวกมันถูกสร้างมาเพื่อกันและกัน](./rust-project/ironpad-rust-ai-development.md)
   - ["Redistill" บทพิสูจน์ศักยภาพของ Rust ในการทลายขีดจำกัด Throughput ของ Redis สู่ระดับ 9 ล้าน Ops/sec](./rust-project/redistill-redis-replacement.md)
-  - ["Feste" เมื่อ Rustacean สร้าง GPT-2 จากศูนย์ ไร้ PyTorch มีแค่ Math และ Memory Layout](./rust-project/rp005-feste-gpt2-from-scratch.md)
+  - ["Feste" เมื่อ Rustacean สร้าง GPT-2 จากศูนย์ ไร้ PyTorch มีแค่ Math และ Memory Layout](./rust-project/feste-gpt2-from-scratch.md)
 
 # Rust Research
 
