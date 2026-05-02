@@ -12,6 +12,7 @@
   - [การใช้ Rust หั่นโค้ดทิ้ง 90% ก่อนป้อนให้ LLM](./case-study/skim-code-for-llm.md)
   - [เมื่อความน่าจะเป็นของ AI ปะทะกับความเข้มงวดของ Rust บทเรียนจากการ Modernize ระบบ COBOL ด้วย Rust](./case-study/modernize-cobol-with-rust.md)
   - [การสร้าง Media Converter ด้วย Rust](./case-study/honeymelon-media-converter.md)
+  - [ทำไม Claude Code ถึงเลือก ripgrep แทน Vector Search](./case-study/claude-ripgrep-vs-vector-search.md)
 
 # Deep Dive
 
