@@ -6,3 +6,4 @@
 - ["Ironpad" เมื่อ Rust กับ AI-Assisted Development พิสูจน์ว่าพวกมันถูกสร้างมาเพื่อกันและกัน](./ironpad-rust-ai-development.md) — 2026-02-08
 - ["Redistill" บทพิสูจน์ศักยภาพของ Rust ในการทลายขีดจำกัด Throughput ของ Redis สู่ระดับ 9 ล้าน Ops/sec](./redistill-redis-replacement.md) — 2026-02-05
 - ["Feste" เมื่อ Rustacean สร้าง GPT-2 จากศูนย์ ไร้ PyTorch มีแค่ Math และ Memory Layout](./feste-gpt2-from-scratch.md) — 2026-02-03
+- [OneTalker แอปพลิเคชัน AAC ตัวแรกของโลกที่ขับเคลื่อนด้วย Rust](./onetalker-aac-rust.md) — 2026-01-27
