@@ -36,6 +36,7 @@
   - [ทำความรู้จัก Smart Pointer](./rust-core/smart-pointers-guide.md)
   - [สถาปัตยกรรม Compilation Pipeline ของ Rust](./rust-core/rust-compilation-pipeline.md)
   - [บางครั้ง Benchmark ไม่ได้วัดแค่ความเร็ว แต่กำลังเผยให้เราเห็นถึงปรัชญาของภาษานั้นๆ](./rust-core/benchmark-integer-overflow.md)
+  - [เจาะลึก Engineering Culture ผ่านระบบเบื้องหลังของ "This Week in Rust"](./rust-core/this-week-in-rust-culture.md)
 
 # Rust Crates
 

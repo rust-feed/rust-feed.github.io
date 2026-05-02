@@ -5,3 +5,4 @@
 - [ทำความรู้จัก Smart Pointer](./smart-pointers-guide.md) — 2026-03-05
 - [สถาปัตยกรรม Compilation Pipeline ของ Rust](./rust-compilation-pipeline.md) — 2026-02-22
 - [บางครั้ง Benchmark ไม่ได้วัดแค่ความเร็ว แต่กำลังเผยให้เราเห็นถึงปรัชญาของภาษานั้นๆ](./benchmark-integer-overflow.md) — 2026-02-18
+- [เจาะลึก Engineering Culture ผ่านระบบเบื้องหลังของ "This Week in Rust"](./this-week-in-rust-culture.md) — 2026-02-03
