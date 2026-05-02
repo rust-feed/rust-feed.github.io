@@ -4,4 +4,4 @@
 - [เมื่อ Vite 8 เดิมพันอนาคตของ Web Tooling ด้วยสถาปัตยกรรมแบบที่ขับเคลื่อนด้วย Rust (Rolldown + Oxc)](./vite-8-rust-rolldown-oxc.md) — 2026-03-21
 - [การใช้ Rust หั่นโค้ดทิ้ง 90% ก่อนป้อนให้ LLM](./skim-code-for-llm.md) — 2026-03-08
 - [เมื่อความน่าจะเป็นของ AI ปะทะกับความเข้มงวดของ Rust บทเรียนจากการ Modernize ระบบ COBOL ด้วย Rust](./modernize-cobol-with-rust.md) — 2026-02-25
-- [การสร้าง Media Converter ด้วย Rust](./cs001-honeymelon-media-converter.md) — 2026-02-06
+- [การสร้าง Media Converter ด้วย Rust](./honeymelon-media-converter.md) — 2026-02-06
